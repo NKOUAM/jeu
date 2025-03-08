@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Générer un Code-Barres</title>
+  <script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.0/dist/JsBarcode.all.min.js"></script>
+  <link rel="stylesheet" href="barre.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>Générer un Code-Barres</h1>
+
+  <div>
+    <label for="barcodeText">Entrez le texte pour le code-barres:</label>
+    <input type="text" id="barcodeText" placeholder="Ex: 123456789012" />
+  </div>
+
+  <button id="generateButton">Générer Code-Barres</button>
+
+  <svg id="barcode"></svg>
+</div>
+
+<script src="barre.css"></script>
+</body>
+</html>

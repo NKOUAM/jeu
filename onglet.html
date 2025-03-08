@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Onglets en HTML, CSS et JavaScript</title>
+  <link rel="stylesheet" href="onglet.css">
+</head>
+<body>
+
+<div class="tab-container">
+  <!-- Onglets -->
+  <div class="tabs">
+    <button class="tab-button" onclick="openTab(event, 'tab1')">Onglet 1</button>
+    <button class="tab-button" onclick="openTab(event, 'tab2')">Onglet 2</button>
+    <button class="tab-button" onclick="openTab(event, 'tab3')">Onglet 3</button>
+  </div>
+
+  <!-- Contenu des Onglets -->
+  <div class="tab-content">
+    <div id="tab1" class="tab-content-item">
+      <h2>Contenu de l'Onglet 1</h2>
+      <p>roi demon.</p>
+      <img src="igris.jpeg" height="200" width="200">
+    </div>
+    <div id="tab2" class="tab-content-item">
+      <h2>Contenu de l'Onglet 2</h2>
+      <p>baby boss.</p>
+      <img src="img.jpg" height="200" width="200" >
+    </div>
+    <div id="tab3" class="tab-content-item">
+      <h2>Contenu de l'Onglet 3</h2>
+      <p>garou</p>
+      <img src="garou.jpg" height="200" width="200">
+    </div>
+  </div>
+</div>
+
+<script src="onglet.js"></script>
+</body>
+</html>

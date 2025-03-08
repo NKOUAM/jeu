@@ -1,0 +1,553 @@
+.parent{
+
+  width: 1000px;
+position: relative;
+  left: 300px;
+box-shadow: 4px 8px 8px 0 black;
+background:linear-gradient( rgba(0, 255, 255, 0.18) 40% , rgba(165, 180, 252, 0.13) 60%);
+  height: 800px;
+
+}
+
+.enfant{
+    display: flex;
+  flex-direction: column;
+  row-gap: 1.2rem;
+
+  box-shadow: 8px 10px 10px 8px rgba(165, 180, 252, 0.19);
+  width: 10rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  color: #666;
+
+
+
+}
+.chrono a{
+  border: 1px solid rgba(0, 0, 0, 0.27);
+  border-radius: 4px;
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  color: #666;
+width: 200px;
+  box-shadow: 8px 10px 10px 8px rgba(165, 180, 252, 0.19);
+}
+.todo a {
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 10px;
+  color: #666;
+  width: 200px;
+  box-shadow: 8px 10px 10px 8px rgba(165, 180, 252, 0.19);
+}
+.saut a{
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 10px;
+  color: #666;
+  width: 200px;
+  box-shadow: 8px 10px 10px 8px rgba(165, 180, 252, 0.19);
+}
+.pierre a{
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 10px;
+  color: #666;
+  box-shadow: 8px 10px 10px 8px rgba(165, 180, 252, 0.19);
+
+}
+.mot a{
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 10px;
+  color: #666;
+  box-shadow: 8px 10px 10px 8px rgba(165, 180, 252, 0.19);
+}
+.calcul a{
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 10px;
+  color: #666;
+  width: 200px;
+  box-shadow: 8px 10px 10px 8px rgba(165, 180, 252, 0.19);
+}
+.barre a{
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 10px;
+  color: #666;
+  box-shadow: 8px 10px 10px 8px rgba(165, 180, 252, 0.19);
+}
+.lien a{
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 10px;
+  color: #666;
+  width: 200px;
+  box-shadow: 8px 10px 10px 8px rgba(165, 180, 252, 0.19);
+}
+.onglet a{
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 10px;
+  color: #666;
+  width: 200px;
+  box-shadow: 15px 10px 10px 15px rgba(165, 180, 252, 0.19);
+}
+.enfant a {
+  text-decoration: none;
+
+
+}
+.parent1{
+  display: flex;
+  flex-direction: column;
+}
+.enfant1{
+
+  padding: 15px;
+  width: 700px;
+  position: relative;
+  left: 180px;
+  bottom: 720px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  color: #666;
+box-shadow: 2px 2px 10px 2px rgba(165, 180, 252, 0.19);
+
+}
+span{
+  display: flex;
+
+  flex-direction:row;
+  align-items: center;
+  justify-content:space-around;
+}
+span img{
+  border-radius: 50%;
+}
+span p{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+span h1{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+.maman{
+  display: flex;
+  flex-direction: column;
+
+}
+.bebe{
+  display: flex;
+  flex-direction:row;
+  column-gap: 10px;
+
+}
+.bebe1{
+
+  padding: 10px;
+  height: 300px;
+  width: 160px;
+
+}
+.bebe1 p{
+  text-align: center;
+}
+.bebe2{
+
+  padding: 10px;
+  height: 300px;
+  width: 500px;
+}
+.nom{
+  display: flex;
+  flex-direction: row;
+}
+.email{
+  display: flex;
+  flex-direction: row;
+}
+.telephone{
+  display: flex;
+  flex-direction: row;
+}
+.adresse{
+  display: flex;
+  flex-direction: row;
+}
+.nom h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.4em;
+  color: #333;
+}
+.nom p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  color: #666;
+}
+.email p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  color: #666;
+}
+.email h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.4em;
+  color: #333;
+}
+.telephone p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  color: #666;
+}
+.telephone h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.4em;
+  color: #333;
+}
+.adresse p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  color: #666;
+}
+.adresse h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.4em;
+  color: #333;
+}
+.enfant2{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+box-shadow: 8px 10px 10px 8px rgba(165, 180, 252, 0.19);
+  border-radius: 4px;
+  padding: 30px;
+  width: 674px;
+  position: relative;
+  left: 180px;
+  bottom: 700px;
+  color: #666;
+
+}
+.enfant3{
+
+  padding: 5px;
+  width: 720px;
+  height: 140px;
+  position: relative;
+  left: 180px;
+  bottom: 675px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+
+  color: #666;
+
+}
+.enfant img{
+  position:relative;
+  left: 30px;
+  top: 10px;
+}
+/* Base Styles */
+.parent {
+  width: 1000px;
+  position: relative;
+  left: 300px;
+  box-shadow: 4px 8px 8px 0 black;
+  background: linear-gradient(rgba(0, 255, 255, 0.18) 40%, rgba(165, 180, 252, 0.13) 60%);
+  height: 800px;
+}
+
+.enfant {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.2rem;
+  box-shadow: 8px 10px 10px 8px rgba(165, 180, 252, 0.19);
+  width: 10rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  color: #666;
+}
+
+.chrono a, .todo a, .saut a, .pierre a, .mot a, .calcul a, .barre a, .lien a, .onglet a {
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 10px;
+  color: #666;
+  width: 200px;
+}
+
+.enfant a {
+  text-decoration: none;
+}
+
+.parent1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.enfant1 {
+  padding: 15px;
+  width: 700px;
+  position: relative;
+  left: 180px;
+  bottom: 720px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  color: #666;
+}
+
+span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+span img {
+  border-radius: 50%;
+}
+
+span p, span h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.maman {
+  display: flex;
+  flex-direction: column;
+}
+
+.bebe {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+}
+
+.bebe1 {
+  padding: 10px;
+  height: 300px;
+  width: 160px;
+}
+
+.bebe1 p {
+  text-align: center;
+}
+
+.bebe2 {
+  padding: 10px;
+  height: 300px;
+  width: 500px;
+}
+
+.nom, .email, .telephone, .adresse {
+  display: flex;
+  flex-direction: row;
+}
+
+.nom h1, .email h1, .telephone h1, .adresse h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.4em;
+  color: #333;
+}
+
+.nom p, .email p, .telephone p, .adresse p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  color: #666;
+}
+
+.enfant2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 8px 10px 10px 8px rgba(165, 180, 252, 0.19);
+  border-radius: 4px;
+  padding: 30px;
+  width: 674px;
+  position: relative;
+  left: 180px;
+  bottom: 700px;
+  color: #666;
+}
+
+.enfant3 {
+  padding: 5px;
+  width: 720px;
+  height: 140px;
+  position: relative;
+  left: 180px;
+  bottom: 675px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  color: #666;
+  box-shadow: 0px 2px 20px 0px rgba(165, 180, 252, 0.75);
+}
+
+.enfant img {
+  position: relative;
+  left: 30px;
+  top: 10px;
+}
+
+/* Media Queries for Responsiveness */
+
+/* For screens smaller than 1200px */
+@media (max-width: 1200px) {
+  .parent {
+    width: 90%;
+    left: 5%;
+  }
+
+  .enfant1 {
+    width: 80%;
+    left: 10%;
+  }
+
+  .enfant2 {
+    width: 90%;
+    left: 5%;
+  }
+
+  .enfant3 {
+    width: 90%;
+    left: 5%;
+  }
+}
+
+/* For screens smaller than 992px */
+@media (max-width: 992px) {
+  .parent {
+    width: 100%;
+    left: 0;
+    height: auto;
+  }
+
+  .enfant {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .parent1 {
+    flex-direction: column;
+  }
+
+  .enfant1, .enfant2, .enfant3 {
+    width: 100%;
+    position: relative;
+    left: 0;
+    bottom: auto;
+  }
+
+  .bebe {
+    flex-direction: column;
+  }
+
+  .bebe1, .bebe2 {
+    width: 100%;
+    height: auto;
+  }
+
+  .nom, .email, .telephone, .adresse {
+    flex-direction: column;
+  }
+
+  .chrono a, .todo a, .saut a, .pierre a, .mot a, .calcul a, .barre a, .lien a, .onglet a {
+    width: 100%;
+  }
+}
+
+/* For screens smaller than 768px */
+@media (max-width: 768px) {
+  .parent {
+    width: 100%;
+    padding: 10px;
+    box-shadow: none;
+  }
+
+  .enfant1 h1, .enfant1 p {
+    font-size: 1.2em;
+  }
+
+  .bebe1 img, .bebe2 img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .nom h1, .email h1, .telephone h1, .adresse h1 {
+    font-size: 1.2em;
+  }
+
+  .nom p, .email p, .telephone p, .adresse p {
+    font-size: 0.9em;
+  }
+
+  .enfant2 {
+    padding: 20px;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .enfant3 {
+    width: 100%;
+    padding: 15px;
+    height: auto;
+  }
+
+  .chrono a, .todo a, .saut a, .pierre a, .mot a, .calcul a, .barre a, .lien a, .onglet a {
+    width: 100%;
+    text-align: center;
+  }
+
+  .bebe1, .bebe2 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+}
+
+/* For screens smaller than 480px */
+@media (max-width: 480px) {
+  .parent {
+    width: 100%;
+    padding: 10px;
+    box-shadow: none;
+  }
+
+  .enfant1, .enfant2, .enfant3 {
+    width: 100%;
+  }
+
+  .bebe1 img, .bebe2 img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .nom h1, .email h1, .telephone h1, .adresse h1 {
+    font-size: 1.1em;
+  }
+
+  .nom p, .email p, .telephone p, .adresse p {
+    font-size: 0.9em;
+  }
+
+  .chrono a, .todo a, .saut a, .pierre a, .mot a, .calcul a, .barre a, .lien a, .onglet a {
+    width: 100%;
+    padding: 8px;
+    text-align: center;
+  }
+
+  .bebe1, .bebe2 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+}

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: green;
+  font-family: Arial, sans-serif;
+}
+
+.chronometer {
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  color: black;
+  font-family: "Dancing Script", cursive;
+}
+
+.time {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.buttons button {
+  padding: 10px ;
+  font-size: 18px;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: forestgreen;
+  color: white;
+  transition: background-color 0.1ms;
+}
+
+.buttons button:hover {
+  background-color:green;
+}
+
+.buttons button:active {
+  background-color: green;
+}
+button{
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: forestgreen;
+  border: 1px solid forestgreen;
+  cursor: pointer;
+
+
+}

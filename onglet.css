@@ -1,0 +1,61 @@
+/* Styles généraux pour la mise en page */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  padding: 20px;
+}
+
+/* Conteneur principal */
+.tab-container {
+  width: 80%;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Style des boutons des onglets */
+.tabs {
+  display: flex;
+  border-bottom: 2px solid #ddd;
+}
+
+.tab-button {
+  padding: 15px;
+  font-size: 16px;
+  background-color: #f4f4f9;
+  border: none;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  flex: 1;
+  text-align: center;
+  transition: background-color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.tab-button:hover {
+  background-color: #e0e0e0;
+}
+
+.tab-button.active {
+  background-color: #ffffff;
+  border-bottom: 2px solid #4CAF50;
+}
+
+/* Contenu des onglets */
+.tab-content {
+  padding: 20px;
+}
+
+.tab-content-item {
+  display: none;
+}
+
+.tab-content-item.active {
+  display: block;
+}
